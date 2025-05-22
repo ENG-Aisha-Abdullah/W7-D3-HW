@@ -13,7 +13,7 @@ import Morocco from "../component/Morocco";
 function Layout() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
       <Outlet />
       <Cards />
     </>
