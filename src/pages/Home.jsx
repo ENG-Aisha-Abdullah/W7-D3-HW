@@ -5,7 +5,7 @@ function Home() {
 
 
  <div
-      className="bg-[url('src/assets/DesertSand.png')] bg-cover bg-center text-white"
+      className="bg-[url('./src/assets/DesertSand.png')] bg-cover bg-center text-white"
       style={{ height: '100vh' }}
     >
       <div className="flex flex-col justify-center gap-6 lg:gap-10 text-center font-extralight items-center backdrop-brightness-40 h-full px-4 ">
