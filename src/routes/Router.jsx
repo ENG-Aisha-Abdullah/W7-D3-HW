@@ -1,6 +1,6 @@
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
-// import { Outlet } from "react-router";
-import Home from "../pages/home";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+// import  Outlet from "react-router-dom";
+import Home from "../pages/Home";
 import Cards from "../pages/Cards";
 import Ola from "../component/Ola";
 import Japan from "../component/Japan";
