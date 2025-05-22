@@ -1,12 +1,15 @@
 import React from 'react'
+import DesertSand from '/src/assets/DesertSand.png';
 
 function Home() {
   return (
 
 
  <div
-      className="bg-[url('./src/assets/DesertSand.png')] bg-cover bg-center text-white"
-      style={{ height: '100vh' }}
+      className="bg-[url(${DesertSand})] bg-cover bg-center text-white"
+      style={{  
+        backgroundImage: `url(${DesertSand})`,
+        height: '100vh'}}
     >
       <div className="flex flex-col justify-center gap-6 lg:gap-10 text-center font-extralight items-center backdrop-brightness-40 h-full px-4 ">
         <h1 className="text-bold lg:text-8xl mt-40">Inesparation – أماكن من العالم</h1>
