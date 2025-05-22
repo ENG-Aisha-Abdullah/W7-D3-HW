@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import { Outlet } from "react-router-dom";
 import Home from "../pages/home";
 import Cards from "../pages/Cards";
 import Ola from "../component/Ola";
@@ -13,7 +12,7 @@ import Morocco from "../component/Morocco";
 function Layout() {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       <Outlet />
       <Cards />
     </>
