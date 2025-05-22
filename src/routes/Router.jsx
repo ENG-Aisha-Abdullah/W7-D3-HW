@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Home from "../pages/home";
 import Cards from "../pages/Cards";
 import Ola from "../component/Ola";
@@ -29,8 +30,6 @@ const router = createBrowserRouter([
        { path: "/Japan", element: <Japan /> },
       { path: "/Iceland", element: <Iceland /> },
         { path: "/Morocco", element: <Morocco /> },
-    //   { path: "contact", element: <Contact /> },
-    //   { path: "Pages", element: <Pages /> },
     ],
   },
 ]);
