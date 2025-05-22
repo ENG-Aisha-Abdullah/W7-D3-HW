@@ -1,4 +1,5 @@
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
+// import { Outlet } from "react-router";
 import Home from "../pages/home";
 import Cards from "../pages/Cards";
 import Ola from "../component/Ola";
